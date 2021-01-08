@@ -26,6 +26,7 @@ a
   border: 2px #0065FC;
   border-top-style: solid;
 	color: #0065FC;
+  transform: scale(1.02);
 }
 #liens
 {
@@ -33,7 +34,8 @@ a
   	font-weight: 500;
     font-size: 0.9em;
   	text-align: center;
-  	word-spacing: 3rem;  
+  	word-spacing: 3rem;
+    transition-duration: 0.2s;  
 }
 .hosting, .signup{
   color: #0065FC;
@@ -84,33 +86,36 @@ a
   cursor: pointer;
  } 
 
-
 .items
 {
-    margin-top: 1.5rem;
-    display: flex;
-    align-items: center;
-
+ margin-top: 1.5rem;
+ display: flex;
+ align-items: center;
 }
 .filters
 {
-    display: flex;
-    align-items: center;
-    margin-right: 2.5rem;
+ display: flex;
+ align-items: center;
+ margin-right: 2.5rem;
+ transition-duration: 0.3s;
 }
+.filters:hover
+{
+  transform: scale(1.03);
+}
+
 .titrefiltre
 {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .icone
-{
-    
-    position: absolute;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    padding: 10px;
-    border-radius: 70px;
+{  
+ position: absolute;
+ color: #0065FC;
+ background-color: #DEEBFF;
+ padding: 10px;
+ border-radius: 70px;
 }
 .fa-money-bill-wave
 {
@@ -197,7 +202,11 @@ a
   cursor: pointer;
   box-sizing: border-box;
   height: 100%;
- 
+  transition-duration: 0.2s;
+}
+.imghosting:hover
+{
+  transform: scale(1.02);
 }
 
 #hotelport
@@ -258,37 +267,46 @@ a
    border-radius: 10px;
    background-color: white;
    padding: 5px;
-
+   transition-duration: 0.2s;   
 }
-.poluparimage
+.accomodationpopular:hover
+{
+ transform: scale(1.02);
+}
+
+.popularimage
 {
   
-width: 20px;
-height: 40px;  
+
 }
 
 
 
   /*contenu principal 2*/
-.activity 
-{
-  
-}
-.imgactivity
+.activites
  {
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px #F2F2F2; 
-  width: 36%;
-  padding: -23%;
-  box-sizing: border-box;
+  display: grid;
+  column-gap: 2rem;
+  margin: 1rem ;
+}
+.titleactivity
+{
+  grid-column: 1/-1;
+}
+
+.imgactivity
+{
+  box-shadow: 20px #F2F2F2;
+  border-radius: 1rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition-duration: 0.1s;
+}
+.imgactivity:hover {
+  transform: scale(1.01);
 }
 
-
-
-
- 
 
 
 
@@ -297,8 +315,6 @@ height: 40px;
 
 
   /*pied de page*/
-
-
 
 footer
 {
@@ -309,25 +325,32 @@ footer
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-ul
-{
-  list-style: none;
 
 }
-.footix
+
+ ul
 {
-  margin-left: 10px;
+  list-style: none;
+  line-height: 1.6rem;
 }
 .about
 {
-  margin-left: -52px;
+  margin-bottom: 15px;
+  margin-left: -45px;
 }
-.footerhosting
-{
-  margin-left: -52px;
-}
-.assistance
-{
 
+.foot
+{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.foothosting
+{
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.assitance
+{
+  margin-left: 10px;
+  margin-top: 8px;
 }
