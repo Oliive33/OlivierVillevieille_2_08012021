@@ -315,15 +315,19 @@ ul
   list-style: none;
 
 }
-.pied
+.footix
 {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .about
 {
-  margin-left: -50px;
+  margin-left: -52px;
 }
 .footerhosting
 {
-  margin-left: -50px;
+  margin-left: -52px;
+}
+.assistance
+{
+
 }
