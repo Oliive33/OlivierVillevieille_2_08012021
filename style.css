@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+}
+
+a
+{
+	color:black;
+	text-decoration: none;
+}
+
+#navigation
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+
+ }
+ #liens :hover{
+  padding: 20px;
+  border: 2px #0065FC;
+  border-top-style: solid;
+	color: #0065FC;
+}
+#liens
+{
+	  padding: 1rem;
+  	font-weight: 500;
+    font-size: 0.9em;
+  	text-align: center;
+  	word-spacing: 3rem;  
+}
+.hosting, .signup{
+  color: #0065FC;
+}
+
+.titre{
+
+	margin-bottom: 0.5rem;
+}
+
+.text
+{
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.map {
+  display: inline-flex;
+  max-width: 100%;
+  
+}
+#icon {
+  background-color: #F2F2F2;
+  padding: 1rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+  }
+
+.place {
+  border-right: none;
+  border-left: none;
+  border-top: #F2F2F2 2px solid;
+  border-bottom: #F2F2F2 2px solid;
+  box-sizing: border-box;
+  padding: 0,8rem;
+  font-size: 1rem;
+  font-weight: bold;
+ }
+
+.searchFormSubmit {
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0,8rem;
+  font-size: 1rem;
+  cursor: pointer;
+ } 
+
+
+.items
+{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+
+}
+.filters
+{
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+}
+.titrefiltre
+{
+    margin-right: 15px;
+}
+
+.icone
+{
+    
+    position: absolute;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 70px;
+}
+.fa-money-bill-wave
+{
+  margin-right: 2px;
+}
+.fa-child
+{
+  margin-right: 3px;
+}
+.fa-heart
+{
+  margin-right: 2.5px;
+}
+.fa-dog
+{
+  margin-right: 2px;
+}
+
+.filter
+{
+  margin: 15px 10px;
+  padding: 8px 12px 8px 45px;
+  border:2px solid #d9d9d9;
+  border-radius: 70px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fa-info-circle
+{
+  color: #0065FC 
+}
+
+*
+{
+	padding-left: 0.4rem;
+}
+.bluestar
+{
+  color: #0065FC;
+  margin-left: -15px;
+  margin-top: 5px;
+}
+
+.massilia
+{
+  grid-column: 1/-1;
+  margin-right: 2px;
+ padding-top: 20px;
+ 
+}
+.learnmore
+{
+  font-weight: bold;
+}
+
+#city
+{
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: 2fr 2fr 2fr;
+  background-color: #F2F2F2;
+  width: 70%;
+  height: 100%;
+  padding: 0 30px 0 30px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 1rem 1rem 1rem 1rem;
+
+}
+
+#cannebiere
+{
+  width: 100% 
+  }
+.imghosting
+{
+  background-color: white;
+  overflow: hidden;
+  padding: 0px;
+  margin-bottom: 5rem;
+  border-radius: 1.40rem;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 100%;
+ 
+}
+
+#hotelport
+{
+
+ 
+  width: 100% 
+}
+#mouettes
+{
+ 
+  width: 100%
+}
+#mer
+{
+  
+  width: 100%
+}
+#lepanier
+{
+  
+  width: 100%
+ } 
+#chezamina
+{
+  
+  width: 80%
+  
+}
+
+  /*contenu sur le côté*/
+.hostingpopulartitle
+{
+  margin-left: 2.2rem;
+}
+.fa-chart-line
+{
+  margin-left: 8rem;
+}
+
+.hostingpopular
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 40%;
+  height: 120%;
+  align-items: start;
+  
+}
+.accomodationpopular
+{
+   display: flex;
+   border-radius: 1rem 1rem 1rem 1rem;
+   width: 80%;
+   height: 170px;
+   border-radius: 10px;
+   background-color: white;
+   padding: 5px;
+
+}
+.poluparimage
+{
+  
+width: 20px;
+height: 40px;  
+}
+
+
+
+  /*contenu principal 2*/
+.activity 
+{
+  
+}
+.imgactivity
+ {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #F2F2F2; 
+  width: 36%;
+  padding: -23%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+  /*pied de page*/
+
+
+
+footer
+{
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  background-color: #F2F2F2;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul
+{
+  list-style: none;
+
+}
+.pied
+{
+  margin-left: 12px;
+}
+.about
+{
+  margin-left: -50px;
+}
+.footerhosting
+{
+  margin-left: -50px;
+}
