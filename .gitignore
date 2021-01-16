@@ -1,6 +1,6 @@
 .docx
-.png
+*.png
 .md
-.jpg
-images
-mini_images
+*.jpg
+*images
+*mini_images
