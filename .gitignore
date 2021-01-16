@@ -1,8 +1,5 @@
-.docx
+*.docx
 *.png
 .md
 *.jpg
-*images
-*mini_images
-*activites
-*hebergements
+
