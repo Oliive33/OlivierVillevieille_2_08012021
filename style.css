@@ -6,7 +6,6 @@
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 }
-
 body
 {
   margin: 0;
@@ -14,7 +13,7 @@ body
 }
 header, main
 {
-  padding: 1rem 0 0 1rem;
+  padding: 1rem 1.5rem 0 1.5rem;
 }
 
 a
@@ -75,6 +74,7 @@ span
 .titre{
 
 	margin-bottom: 0.5rem;
+  font-size: 30px;
 }
 
 .text
@@ -137,7 +137,8 @@ span
 
 .titrefiltre
 {
-  margin-right: 15px;
+  margin-right: 25px;
+  font-size: 21px;
 }
 
 .icone
@@ -147,6 +148,7 @@ span
  background-color: #DEEBFF;
  padding: 10px;
  border-radius: 70px;
+ font-size: 20px;
 }
 .fa-money-bill-wave
 {
@@ -167,10 +169,10 @@ span
 
 .filter
 {
-  margin: 15px 10px;
-  padding: 8px 12px 8px 45px;
+  margin: 15px 5px;
+  padding: 8px 12px 8px 43px;
   border:2px solid #d9d9d9;
-  border-radius: 70px;
+  border-radius: 65px;
   cursor: pointer;
   font-weight: bold;
 }
@@ -185,6 +187,7 @@ span
   margin-top: 25px;
   margin-right: 25px;
   padding-top: 15px;
+  font-size: 20px;
 }
 .titlehosting 
 {
@@ -207,17 +210,18 @@ span
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 3rem;
+  cursor: pointer;
 }
 .container
 {
  display: flex;
- justify-content: space-between; 
+ justify-content: space-between;
 }
 .element1
 {
   background-color: #F2F2F2;
   border-radius: 1rem 1rem 1rem 1rem;
-  width: 64%;
+  width: 65%;
 }
 .element2
 {
@@ -229,12 +233,13 @@ span
 .city
 {
   display: grid;
-  column-gap: 0.30rem;
+  grid-column-gap: 0.3rem;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 1rem;
   box-sizing: border-box;
+  position: relative;
+  left: 1rem;
   height: 100%;
-  padding-left: 2rem;
 }
 .imghosting
 {
@@ -244,8 +249,9 @@ span
   box-sizing: border-box;
   width: 85%;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-  margin: 0 1rem 1rem 0rem;
+  margin: 0 0.5rem 1rem 0rem;
   transition-duration: 0.3s; 
+
 }
 .imghosting:hover
 {
@@ -290,7 +296,8 @@ span
 .hostingpopulartitle
 {
   margin: 17px 10px 2px 10px;
-  padding: 25px 10px 2px 15px;
+  padding: 25px 10px 2px 0;
+  font-size: 20px;
 }
 .fa-chart-line
 {
@@ -340,6 +347,7 @@ span
    background-color: white;
    padding:4px 0 5px 5px;
    margin: 0 5px 2px 5px;
+   cursor: pointer;
    transition-duration: 0.2s;   
 }
 .accomodationpopular:hover
@@ -354,8 +362,11 @@ span
   display: grid;
   column-gap: 2rem;
   margin: 3rem 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 13rem 2rem 2rem 2rem 13rem;
+
 }
-  
+
 .titleactivity
 {
   grid-column: 1/-1;
@@ -392,16 +403,11 @@ transform: scale(1.03);
   margin: 0.2rem 1rem 0.7rem 0;
   padding: 0.7rem 1rem 0.5rem 0.5rem;
 }
- .activites 
-{
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto 13rem 2rem 2rem 2rem 13rem;
-}
-
+ 
 .activitycard1
 {
-  grid-row: 2/7;
   grid-column: 1/2;
+  grid-row: 2/7;
 }
 .activitycard2
 {
@@ -437,16 +443,16 @@ footer
   display: flex;
   justify-content: space-around;
   margin-top: 2.5rem;
-  background-color: #F2F2F2;
-  width: 100%;
-  padding: 1rem 5rem 0 3rem;
-  font-size: 13.5px;  
+  background: #F2F2F2;
+  width: 95%;
+  padding: 1.5rem 4rem 0 0;
+  margin-top: 5rem;
+  font-size: 13.5px; 
 }
-
 .about
 {
-padding: 0 2rem 2rem 0;
-margin-left: -17rem;
+padding: 0 0.5rem 2rem 0;
+margin : 0 0 0 -13rem;
 }
 .titlefoot
 {
@@ -457,6 +463,14 @@ ul
   list-style: none;
   text-decoration: none;
   line-height: 1.8rem;
-  margin-top: -0.5rem; 
+  margin-top: 0rem; 
 }
+/*responsive style*/
 
+@media screen and (min-width:768px) and (max-width:1200px) 
+{
+  .activites
+  {
+    background: #0065FC;
+  }
+}
