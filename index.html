@@ -11,7 +11,7 @@
 <body>
 			<!-- L'en tête -->
 	<header id="navigation">
-		<img src="images/logo/reservia.svg" alt="logo.reservia" />	
+		<img class="imglogo" src="images/logo/reservia.svg" alt="logo.reservia" />	
 	  	<nav id="liens">		
 			<a class="hosting" href="#hébergements">Hébergements</a>
     		<a class="activity" href="#Activtés">Activités</a>
@@ -28,11 +28,13 @@
 		   	<form class="map" method="post" action="traitement.php">
        			<i id="icon" class="fas fa-map-marker-alt"></i>
         		<input class="place" type="text" name="recherche" id="recherche" placeholder="Marseille, France" size="20" />  	
-        		<button class="searchFormSubmit">Rechercher</button>	
+        		<button class="searchFormSubmit">
+        		<i class="fas fa-search"></i>	
+        		Rechercher</button>	
       		</form>	
 
+      		<h3 class="titrefiltre">Filtres</h3>
       		<div class="items">
-				<h3 class="titrefiltre">Filtres</h3>
 				<div class="filters">	
 					<div class="icone">	 	
 						<i class="fas fa-money-bill-wave"></i>
