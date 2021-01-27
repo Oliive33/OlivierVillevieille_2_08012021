@@ -430,7 +430,7 @@ ul
 }
 
 /*Responsive Style*/
-@media all and (max-width: 1240px){
+@media all and (max-width: 1300px){
 header{
     display: block;
  }
@@ -454,10 +454,9 @@ header{
   border-radius: 1rem 1rem 1rem 1rem;
   width: 100%;
   height: 135px;
-  font-size: 13px;
   background-color: white;
   padding:4px 0 5px 5px;
-  margin: 0 5px 2px 5px;
+  margin: 0 20px 2px 5px;
   cursor: pointer;
   transition-duration: 0.2s;   
 }
@@ -474,7 +473,7 @@ header{
 }
 .bluestars {
   color: #0065FC;
-  margin: 1rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 
 }
 
@@ -535,22 +534,42 @@ header{
   border-radius: 1rem 0rem 0rem 1rem;
 }
  footer{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
  } 
+ .about {
+    margin: 0 0 0 -5rem;
+}
 }  
-@media all and (max-width: 850px){
+@media all and (max-width: 785px){
 #liens{
   word-spacing: 0;
-  flex-direction: row-reverse;
+  font-size: 11px;
 }
 .city{
     grid-row-gap: 2rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto; 
-    width: auto;
+    width: 100%;
+    background-color: #F2F2F2;
+  }
+  .titlehosting{
+    font-size: 16px;
+  }
+  .texthosting{
+    font-size: 15px;
+  }
+  .imghosting{
+ box-shadow:  0 0 50px #F2F2F2;
+ border-radius: 1rem 1rem 1rem 1rem;
+ width: 90%;
+ margin: 0;
+ background-color: white;
+}
+.imghosting img{
+  width: 100%;
+  object-fit: cover;
   }
  .element2{
   width: 100%
@@ -560,14 +579,14 @@ header{
   display: flex;
   flex-wrap: wrap;
   height: 100%;
-  padding-left: 10px;
-  margin-left: 15px;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
 }
 .hostingpopulartitle{
   display: flex;
-  font-size: 20px;
-  margin: 0 1rem 1rem 1rem;
-  padding: 0 0 1rem 1rem;
+  font-size: 18px;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 .fa-chart-line{
   padding-left: 6rem;
@@ -575,24 +594,22 @@ header{
 }
 .titlepopular
 {
- margin: -1rem 0 2rem 1rem;
  padding: 0.5rem 0.3rem 0.3rem;
 }
 .textpopular
 {
- padding-top: 0.3rem;
- margin-top: -1rem;
+
 }
 .bluestars
 {
- margin: 3rem 0 0 0;
+ margin: 3.5rem 0 0 0;
 }
 .accomodationpopular
 {
   display: flex;
   border-radius: 1rem 1rem 1rem 1rem;
-  width: 90%;
-  height: 170px;
+  width: 75%;
+  height: 160px;
   font-size: 17px;
   background-color: white;
   padding:4px 0 5px 5px;
@@ -607,18 +624,25 @@ header{
   border-radius: 1rem 0rem 0rem 1rem;
 }
   .activites{
-    grid-row-gap: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 12rem 12rem 12rem;
+  grid-row-gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 12rem 12rem 12rem;
   }
   footer{
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 80%;
+  text-align: center;
+  width: 100%;
+ }
+ .about
+ {
+  margin: 0;
+  padding: 0;
+ } 
+
  } 
 }
-@media all and  (max-width: 550px){
+@media all and  (max-width: 475px){
 header, main
 {
   padding: 1rem 1rem 0 1rem;
@@ -716,16 +740,22 @@ margin-bottom: 0;
   align-content: center;
 }
 .hostingpopulartitle{
-  font-size: 20px;
+  font-size: 17px;
   margin: 1rem 1rem 1rem 1rem;
   padding: 0 0 1rem 1rem;
 }
 .fa-chart-line{
-  padding-left: 4rem;
-  margin-left: 4rem;
+  padding-left: 3rem;
+  margin-left: 3rem;
 }
 .bluestars {
   margin: 3rem 0 0 0;
+}
+.titlepopular{
+ font-size: 16px;
+}
+.textpopular{
+ font-size: 14px;
 }
 .popularimage{
   width: 48%;
@@ -739,6 +769,7 @@ margin-bottom: 0;
   footer{
   flex-direction: column;
   align-items: start;
+  text-align: left;
   width: 100%;
  }
  .about
