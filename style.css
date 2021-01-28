@@ -16,7 +16,6 @@ header, main
 {
   padding: 1rem 1.5rem 0 1.5rem;
 }
-
 a
 {
 	color:black;
@@ -26,13 +25,11 @@ span
 {
   font-weight: bold;
 }
-
 #navigation
 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
  }
 #liens
 {
@@ -42,11 +39,11 @@ span
   text-align: center;
   word-spacing: 3rem; 
 }
- .hosting, .signup{
+.hosting, .signup{
   padding: 20px;
   color: #0065FC;
   transition-duration: 0.2s;
-  }
+}
 .hosting:hover{
   transform: scale(1.02);
   border: 2px #0065FC;
@@ -58,7 +55,6 @@ span
   border: 2px #0065FC;
   border-top-style: solid;
 }
-
 .activity
 {
   padding: 20px;
@@ -72,38 +68,30 @@ span
   border-top-style: solid;
 }
 .titre{
-
 	margin-bottom: 0.5rem;
   font-size: 30px;
 }
-
 .text
 {
 	margin: 0.3rem 0 1rem 0;
 }
-
 .map {
   display: inline-flex;
   max-width: 100%;
-  
 }
 #icon {
   background-color: #F2F2F2;
   padding: 1rem;
   border-radius: 1rem 0 0 1rem;
   text-align: center;
-  }
-
+}
 .place {
   border: #F2F2F2 2px solid;
   box-sizing: border-box;
   padding: 0.8rem;
   font-size: 1rem;
   font-weight: bold;
- }
-  .fa-search{
-  }
-
+}
 .searchFormSubmit {
   background-color: #0065FC;
   color: white;
@@ -113,40 +101,37 @@ span
   padding: 0.8rem;
   font-size: 1rem;
   cursor: pointer;
- } 
-
+} 
 .items
 {
- margin-top: 1rem;
- display: flex;
- align-items: center;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
 }
 .filters
 {
- display: flex;
- align-items: center;
- margin-right: 2.5rem;
- transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  margin-right: 2.5rem;
+  transition-duration: 0.3s;
 }
 .filters:hover
 {
   transform: scale(1.03);
 }
-
 .titrefiltre
 {
   margin-right: 25px;
   font-size: 21px;
 }
-
 .icone
 {  
- position: absolute;
- color: #0065FC;
- background-color: #DEEBFF;
- padding: 10px;
- border-radius: 70px;
- font-size: 20px;
+  position: absolute;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  padding: 10px;
+  border-radius: 70px;
+  font-size: 20px;
 }
 .fa-money-bill-wave, .fa-dog
 {
@@ -171,11 +156,10 @@ span
 }
 .fa-info-circle
 {
- color: #0065FC;
- font-size: 20px;
- margin-bottom: 1rem;
+  color: #0065FC;
+  font-size: 20px;
+  margin-bottom: 1rem;
 }
-
 .massilia
 {
   grid-column: 1/-1;
@@ -185,18 +169,18 @@ span
 }
 .titlehosting 
 {
- margin: -1rem 0 0.5rem 0.5rem;
- padding: 0 0 0.5rem 0.5rem;
+  margin: -1rem 0 0.5rem 0.5rem;
+  padding: 0 0 0.5rem 0.5rem;
 }
 .texthosting
 {
- margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 .bluestar
 {
- color: #0065FC;
- margin: -0.5rem 0 0 0;
+  color: #0065FC;
+  margin: -0.5rem 0 0 0;
 }
 .fa-stargrey
 {
@@ -208,7 +192,6 @@ span
   margin: 0 0 3rem 0;
   cursor: pointer;
 }
-
 .element
 {
   display: flex;
@@ -259,18 +242,16 @@ span
   padding-left: 4rem;
   margin-left: 4rem;
 }
-
 .titlepopular
 {
- margin: -1rem 0 2rem 0.5rem;
- padding: 0 0.3rem 0.3rem;
+  margin: -1rem 0 2rem 0.5rem;
+  padding: 0 0.3rem 0.3rem;
 }
 .textpopular
 {
- padding-top: 0.3rem;
- margin-top: -1rem;
+  padding-top: 0.3rem;
+  margin-top: -1rem;
 }
-
 .bluestars
 {
  color: #0065FC;
@@ -282,7 +263,6 @@ span
   border-radius: 1rem 1rem 1rem 1rem;
   width: 33%;
 }
-
 .hostingpopular
 {
   display: flex;
@@ -290,12 +270,11 @@ span
   height: 100%;
   padding-left: 10px;
   margin-left: 15px;
-
 }
-  .bluestars
+.bluestars
 {
- color: #0065FC;
- margin: 2rem 0 0 0;
+  color: #0065FC;
+  margin: 2rem 0 0 0;
 }
 .popularimage
 {
@@ -303,7 +282,6 @@ span
   height: 100%;
   border-radius: 1rem 0rem 0rem 1rem;
 }
-
 .accomodationpopular
 {
   display: flex;
@@ -335,21 +313,21 @@ span
 }
 .imgactivity
 {
- box-shadow:  0 0 50px #F2F2F2;
- border-radius: 1rem;
- display: flex;
- flex-direction: column;
- overflow: hidden;
- margin: 0;
- transition-duration: 0.3s;
+  box-shadow:  0 0 50px #F2F2F2;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0;
+  transition-duration: 0.3s;
 }
 .imgactivity:hover
 {
-transform: scale(1.03);
+  transform: scale(1.03);
 }
 .imgwrap
 {
- flex-grow: 1;
+  flex-grow: 1;
 }
 .activitycardimg
 {
@@ -368,37 +346,30 @@ transform: scale(1.03);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto 13rem 1.5rem 1.5rem 1.5rem 13rem;
 }
-.activitycard1
-{
+.activitycard1{
   grid-column: 1/2;
   grid-row: 2/7;
 }
-.activitycard2
-{
+.activitycard2{
   grid-column: 2/3;
   grid-row: 2/5;
 }
-.activitycard3  
-{
+.activitycard3{ 
   grid-column: 2/3;
   grid-row: 6/7;
 }
-.activitycard4
-{
+.activitycard4{
   grid-column: 3/4;
   grid-row: 2/7;
 }
-.activitycard5 
-{
+.activitycard5{
   grid-column: 4/5;
   grid-row: 2/3;
 }
-.activitycard6
-{
+.activitycard6{
   grid-column: 4/5;
   grid-row: 4/7;
-}
-    
+  }  
 }
   /*pied de page*/
 
@@ -434,20 +405,17 @@ ul
 header{
     display: block;
  }
-.items
-{
+.items{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-   
 .city{
-    grid-row-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 64%;
-    }
-.accomodationpopular
-{
+  grid-row-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 64%;
+}
+.accomodationpopular{
   display: flex;
   border-radius: 1rem 1rem 1rem 1rem;
   width: 100%;
@@ -458,14 +426,12 @@ header{
   cursor: pointer;
   transition-duration: 0.2s;   
 }
-
 .hostingpopulartitle{
   margin: 17px 5px 2px 10px;
   padding: 25px 5px 2px 0;
   font-size: 20px;
 }
-.fa-chart-line
-{
+.fa-chart-line{
   padding-left: 1.5rem;
   margin-left: 1.5rem;
 }
@@ -475,34 +441,32 @@ header{
 }
 
 @media all and (max-width: 1100px) {
- header, main
- {
+ header, main{
   padding: 1rem 1rem 0 1rem;
 }
- .city {
+.city {
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto; 
   width: 65%;
   height: 100%;
-  }
-  .element2 {
-    background-color: #F2F2F2;
-    border-radius: 1rem 1rem 1rem 1rem;
-    width: 45%;
-    margin-left: 2rem;
 }
- .hostingpopular {
-    flex-wrap: wrap;
-    height: 100%;
-    margin-top: -3rem;
+.element2 {
+  background-color: #F2F2F2;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 45%;
+  margin-left: 2rem;
+}
+.hostingpopular {
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top: -3rem;
 }
 .hostingpopulartitle{
   font-size: 20px;
   margin-top: 4.5rem;
 }
-.accomodationpopular
-{
+.accomodationpopular{
   display: flex;
   border-radius: 1rem 1rem 1rem 1rem;
   width: 91%;
@@ -516,8 +480,7 @@ header{
 .popularimage{
   width: 50%;
 }
-.fa-chart-line
-{
+.fa-chart-line{
   padding-left: 1.5rem;
   margin-left: 1.5rem;
 }
@@ -525,63 +488,55 @@ header{
   color: #0065FC;
   margin: 2.5rem 0 0 0;
 }
-
-  .activites {
-    grid-row-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 12rem 12rem;
-  }
-  
-
- footer{
+.activites {
+  grid-row-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 12rem 12rem;
+}
+footer{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
- } 
- .about {
-    margin: 0 0 0 -5rem;
-}
+} 
+.about {
+  margin: 0 0 0 -5rem;
+ }
 } 
 
 @media all and (max-width: 785px){
 #liens{
   word-spacing: 0;
-  font-size: 11px;
+  font-size: 13px;
 }
 .city{
-    grid-row-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto; 
-    width: 100%;
-    background-color: #F2F2F2;
-  }
-  .titlehosting{
-    font-size: 16px;
-  }
-  .texthosting{
-    font-size: 15px;
-  }
-  .imghosting{
- box-shadow:  0 0 50px #F2F2F2;
- border-radius: 1rem 1rem 1rem 1rem;
- width: 90%;
- margin: 0;
- background-color: white;
-}
-.imghosting img{
+  grid-row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto; 
   width: 100%;
-  object-fit: cover;
-  }
- .element {
-    flex-wrap: wrap-reverse;
-    } 
- .element2{
+  background-color: #F2F2F2;
+}
+.titlehosting{
+  font-size: 17px;
+}
+.texthosting{
+  font-size: 15px;
+}
+.imghosting{
+  box-shadow: 0 0 50px #F2F2F2;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 90%;
+  margin: 0;
+  background-color: white;
+}
+.element{
+  flex-wrap: wrap-reverse;
+} 
+.element2{
   width: 100%;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
- } 
-  
-  .hostingpopular{
+} 
+.hostingpopular{
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -591,73 +546,62 @@ header{
 .hostingpopulartitle{
   display: flex;
   font-size: 18px;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 0.5rem 1rem 1rem;
   padding: 1rem 0 1rem 1rem;
 }
 .fa-chart-line{
-  padding-left: 6rem;
+  padding-left: 5rem;
   margin-left: 6rem;
 }
-.titlepopular
-{
- padding: 0.5rem 0.3rem 0.3rem;
+.titlepopular{
+  padding: 0.5rem 0.3rem 0.3rem;
 }
-.textpopular
-{
- font-size: 16px;
+.textpopular{
+  font-size: 16px;
 }
-.bluestars
-{
- margin: 3rem 0 0 0;
+.bluestars{
+  margin: 3rem 0 0 0;
 }
-.accomodationpopular
-{
+.accomodationpopular{
   display: flex;
   border-radius: 1rem 1rem 1rem 1rem;
   width: 75%;
   height: 160px;
-  font-size: 17px;
+  font-size: 18px;
   background-color: white;
   padding:4px 0 5px 5px;
   margin: 0 10px 20px 15px;
   cursor: pointer;
   transition-duration: 0.2s;   
 }
-.popularimage
-{
+.popularimage{
   width: 40%;
   height: 100%;
   border-radius: 1rem 0rem 0rem 1rem;
 }
-  .activites{
+.activites{
   grid-row-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 12rem 12rem 12rem;
-  }
-  footer{
+}
+footer{
   flex-direction: column;
   align-items: center;
   text-align: center;
   width: 100%;
- }
- .about
- {
+}
+.about{
   margin: 0;
   padding: 0;
  } 
-
 }
-@media all and  (max-width: 475px){
-header, main
-{
-  padding: 1rem 1rem 0 1rem;
-}
+@media all and (max-width: 485px){
 .signup{
- font-weight: bolder;
- position: absolute;
- top: 10px;
- right: 50px;
- font-size: 15px;
+  font-weight: bolder;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  font-size: 15px;
 }
 .hosting{
   border: 2px #0065FC;
@@ -678,10 +622,10 @@ header, main
 }
 .titre, .text{
   width: 95%;
- }
- .text{
+}
+.text{
   margin-bottom: 2rem;
- }
+}
 .titre{
   margin-bottom: 1rem;
   font-size: x-large;
@@ -689,47 +633,52 @@ header, main
 }
 .place {
   font-weight: 800;
- }
+}
 .fa-search{
- background-color: #0065FC;
- border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
- padding: 0.8rem;
- font-size: 1rem;
- cursor: pointer;
+  background-color: #0065FC;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 .searchFormSubmit{
- font-size: 0;
- padding: 0;
- } 
+  font-size: 0;
+  padding: 0;
+} 
 .titrefiltre{
-margin-bottom: 0;
+  margin: 0;
 }
 .items{
-  flex-wrap: wrap;
+  display: block;
+}
+.parent{
+  position: absolute;
+  right: 8px;
+}
+.child{
+  position: relative;
+  bottom: 60px;
+  right: 50px;
 }
 .textinfos{
   font-weight: 500;
 }
- .city {
+.city {
   grid-row-gap: 2rem;
   grid-template-columns:  1fr;
   grid-template-rows: auto;
   padding-left: 0;
   width: 100%;
   background-color: transparent;
-  }
-.imghosting{
- box-shadow:  0 0 50px #F2F2F2;
- border-radius: 1rem 1rem 1rem 1rem;
- width: 100%;
- height: 40%;
- margin: 0 0 10rem 0;
 }
-.imghosting img{
-  width: 100%;
-  height: 150%;
-  object-fit: cover;
-  }
+.imghosting{
+ box-shadow: 10px 10px 40px #F2F2F2;
+ border-radius: 1rem 1rem 1rem 1rem;
+ margin: 0;
+}
+.titlehosting {
+ font-size: 18px; 
+}
 .learnmore
 {
   font-weight: bold;
@@ -739,34 +688,34 @@ margin-bottom: 0;
 .element2{
   width: 100%;
   border-radius: 0;
+  margin-left: 0;
 }
-.hostingpopular
-{
+.hostingpopular{
   width: 100%;
   padding: 0;
   margin: 0;
   align-content: center;
 }
 .hostingpopulartitle{
-  font-size: 17px;
+  font-size: 18px;
   margin: 1rem 1rem 1rem 1rem;
 }
 .fa-chart-line{
-  padding-left: 3rem;
-  margin-left: 3rem;
+  padding-left: 4rem;
+  margin-left: 4rem;
 }
 .bluestars {
   margin: 3rem 0 0 0;
 }
 .titlepopular{
- font-size: 16px;
+  font-size: 17px;
 }
 .textpopular{
- font-size: 14px;
+  font-size: 15px;
 }
 .accomodationpopular{
-  width: 85%; 
-  margin: 0 10px 20px 25px;
+  width: 100%; 
+  margin: 0 15px 20px 15px;
 }
 .popularimage{
   width: 48%;
@@ -775,16 +724,14 @@ margin-bottom: 0;
   grid-row-gap: 2rem;
   grid-template-columns: 1fr;
   grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-  }
-
-  footer{
+}
+footer{
   flex-direction: column;
   align-items: start;
   text-align: left;
   width: 100%;
- }
- .about
- {
+}
+.about{
   margin: 0;
   padding: 0;
  } 
