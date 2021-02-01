@@ -160,8 +160,12 @@ span
 .fa-info-circle
 {
   color: #0065FC;
-  font-size: 20px;
-  margin-bottom: 1rem;
+  font-size: 25px;
+}
+.fa-info-circle, .textinfos{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
 }
 .massilia
 {
@@ -666,6 +670,11 @@ footer{
   bottom: 60px;
   right: 30px;
 }
+.fa-info-circle
+{
+  font-size: 20px;
+  margin-bottom: 17px;
+}
 .textinfos{
   font-weight: 500;
 }
@@ -721,7 +730,7 @@ footer{
   margin: 1rem 1rem 1rem 1rem;
 }
 .fa-chart-line{
-  padding-left: 4rem;
+  padding-left: 2.5rem;
   margin-left: 4rem;
 }
 .bluestars {
