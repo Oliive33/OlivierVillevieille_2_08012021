@@ -30,7 +30,10 @@ span
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
- }
+}
+.imglogo{
+  background: url(images/logo/reservia.svg)
+}
 #liens
 {
   padding: 1rem;
@@ -101,6 +104,9 @@ span
   padding: 0.8rem;
   font-size: 1rem;
   cursor: pointer;
+}
+.fa-search{
+  font-size: 0;
 } 
 .items
 {
@@ -430,16 +436,24 @@ ul
   padding: 25px 5px 2px 0;
   font-size: 20px;
 }
+.fa-chart-line{
+  padding-left: 3rem;
+  margin-left: 0;
+}
+.titlepopular{
+  padding:0;
+  font-size: 16px;
+}
+.textpopular{
+  font-size: 15px;
+  padding-top: 0;
+}
 .bluestars {
   color: #0065FC;
   margin: 2rem 0 2rem 0;
 }
 }
-
 @media all and (max-width: 1100px) {
- header, main{
-  padding: 1rem 1rem 0 1rem;
-}
 .city {
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
@@ -450,8 +464,8 @@ ul
 .element2 {
   background-color: #F2F2F2;
   border-radius: 1rem 1rem 1rem 1rem;
+  margin-left: 1rem;
   width: 45%;
-  margin-left: 2rem;
 }
 .hostingpopular {
   flex-wrap: wrap;
@@ -460,25 +474,27 @@ ul
 }
 .hostingpopulartitle{
   font-size: 20px;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
 }
 .accomodationpopular{
-  display: flex;
-  border-radius: 1rem 1rem 1rem 1rem;
   width: 91%;
   height: 185px;
-  background-color: white;
-  padding:4px 0 5px 5px;
-  margin: 0 20px 2px 5px;
-  cursor: pointer;
-  transition-duration: 0.2s;   
+}
+
+.fa-chart-line {
+  padding: 0 1rem 0 1rem;
+  margin: 0 0 0 3rem;
+}
+.titlepopular{
+  padding:0;
+  font-size: 18px;
+}
+.textpopular{
+  font-size: 16px;
+  padding-top: 0;
 }
 .popularimage{
   width: 50%;
-}
-.fa-chart-line{
-  padding-left: 1.5rem;
-  margin-left: 1.5rem;
 }
 .bluestars {
   color: #0065FC;
@@ -498,7 +514,6 @@ footer{
   margin: 0 0 0 -5rem;
  }
 } 
-
 @media all and (max-width: 785px){
 #liens{
   word-spacing: 0;
@@ -664,6 +679,7 @@ footer{
   grid-template-columns:  1fr;
   grid-template-rows: auto;
   width: 100%;
+  padding-left: 0;
   background-color: transparent;
 }
 .massilia{
@@ -697,6 +713,7 @@ footer{
   width: 100%;
   border-radius: 0;
   margin-left: 0;
+  margin-bottom: 0;
 }
 .hostingpopular{
   width: 100%;
@@ -734,14 +751,15 @@ footer{
   grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
 }
 .activitycardimg {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 footer{
   flex-direction: column;
   align-items: start;
   text-align: left;
+  margin: 2rem 0 0 0;
   width: 100%;
 }
 .about{
