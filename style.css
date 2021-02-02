@@ -106,11 +106,18 @@ span
 .fa-search{
   font-size: 0;
 } 
-.items
+.titrefiltre
 {
-  margin-top: 1rem;
+  margin-right: 25px;
+  font-size: 21px;
+}
+.conteneurfiltre{
   display: flex;
   align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+.items{
+  display: flex;
 }
 .filters
 {
@@ -123,11 +130,7 @@ span
 {
   transform: scale(1.03);
 }
-.titrefiltre
-{
-  margin-right: 25px;
-  font-size: 21px;
-}
+
 .icone
 {  
   position: absolute;
@@ -143,7 +146,8 @@ span
 }
 .fa-child
 {
-  margin-right: 3px;
+  margin-right: 6px;
+  margin-left: 3px;
 }
 .fa-heart
 {
@@ -152,8 +156,8 @@ span
 .filter
 {
   margin: 10px 5px;
-  padding: 8px 12px 8px 43px;
-  border:2px solid #d9d9d9;
+  padding: 10px 12px 10px 43px;
+  border:2px solid #F2F2F2;
   border-radius: 65px;
   cursor: pointer;
   font-weight: bold;
@@ -187,11 +191,10 @@ span
 .bluestar
 {
   color: #0065FC;
-  margin: -0.5rem 0 0 0;
 }
-.fa-stargrey
+.grey
 {
-  color: #F2F2F2;
+  color: #C9D1D1;
 }
 .learnmore
 {
@@ -255,17 +258,11 @@ span
 {
   margin: -1rem 0 2rem 0.5rem;
   padding: 0 0.3rem 0.3rem;
-  font-size: 17px;
+  font-size: 18px;
 }
 .textpopular
 {
-  padding-top: 0.3rem;
   margin-top: -1rem;
-}
-.bluestars
-{
- color: #0065FC;
- margin: 4rem 0 0 0;
 }
 .element2
 {
@@ -283,7 +280,7 @@ span
 .bluestars
 {
   color: #0065FC;
-  margin: 2rem 0 0 0;
+  margin: 4.5rem 0 0 0;
 }
 .popularimage
 {
@@ -412,7 +409,7 @@ ul
 }
 
 /*Responsive Style*/
-@media all and (max-width: 1300px){
+@media all and (max-width: 1440px){
 #liens{
   word-spacing: 0;
 }
@@ -435,11 +432,10 @@ ul
 .hostingpopulartitle{
   margin: 17px 5px 2px 10px;
   padding: 25px 5px 2px 0;
-  font-size: 20px;
+  font-size: 19px;
 }
 .fa-chart-line{
-  padding-left: 3rem;
-  margin-left: 0;
+  margin-left: 25px;
 }
 .titlepopular{
   padding:0;
@@ -455,6 +451,9 @@ ul
 }
 }
 @media all and (max-width: 1100px) {
+.conteneurfiltre{
+  flex-wrap: wrap;
+}
 .city {
   grid-row-gap: 2rem;
   grid-template-columns: 1fr 1fr;
@@ -518,6 +517,9 @@ footer{
 #liens{
   word-spacing: 0;
   font-size: 13px;
+}
+.conteneurfiltre{
+  flex-wrap: wrap;
 }
 .city{
   grid-row-gap: 2rem;
@@ -606,7 +608,7 @@ footer{
   padding: 0;
  } 
 }
-@media all and (max-width: 485px){
+@media all and (max-width: 475px){
 .signup{
   font-weight: bolder;
   position: absolute;
@@ -659,17 +661,11 @@ footer{
 .titrefiltre{
   margin: 0;
 }
-.items{
+.conteneurfiltre{
   display: block;
 }
-.parent{
-  position: absolute;
-  right: 8px;
-}
-.child{
-  position: relative;
-  bottom: 60px;
-  right: 30px;
+.filters{
+  margin-right: 1rem;
 }
 .fa-info-circle
 {
