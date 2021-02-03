@@ -449,6 +449,9 @@ ul
   color: #0065FC;
   margin: 2rem 0 2rem 0;
 }
+.popularimage{
+  height: auto;
+}
 }
 @media all and (max-width: 1100px) {
 .conteneurfiltre{
@@ -511,17 +514,58 @@ footer{
 .about {
   margin: 0 0 0 -5rem;
  }
+}
+@media all and (min-width: 788px) and (max-width: 1080px){
+.element2{
+  width: 75%
 } 
+.hostingpopulartitle{
+ font-size: 18px;
+}
+.fa-chart-line{
+}
+.titlepopular{
+  font-size: 16px;
+}
+.textpopular{
+  font-size: 15px;
+  padding-bottom: 1rem;
+}
+.bluestars{
+  margin-top: 3rem;
+}
+.accomodationpopular{
+  margin: 3rem 0.5rem 2rem 0.5rem;
+  height: 170px;
+  width: 100%;
+} 
+.popularimage {
+  height: auto;
+  }
+#city{
+  width: 100%;
+  }
+.massilia{
+  font-size: 19px;
+}    
+}
 @media all and (max-width: 785px){
 #navigation{
   display: block;
 }
 #liens{
   word-spacing: 0;
-  font-size: 13px;
+  text-align: start;
+  padding-left: 0;
+}
+.titre {
+  font-size: 25px;
 }
 .conteneurfiltre{
   flex-wrap: wrap;
+}
+.filters{
+  margin-right: 1rem;
 }
 #city{
   grid-row-gap: 2rem;
@@ -550,6 +594,7 @@ footer{
   width: 100%;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
+  margin-left: 0;
 } 
 .hostingpopular{
   display: flex;
@@ -560,7 +605,7 @@ footer{
 }
 .hostingpopulartitle{
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
   margin: 1rem 0.5rem 1rem 1rem;
   padding: 1rem 0 1rem 1rem;
 }
@@ -569,30 +614,26 @@ footer{
   margin-left: 6rem;
 }
 .titlepopular{
-  padding: 0.5rem 0.3rem 0.3rem;
+  padding: 0 0.3rem 0.3rem;
+  font-size: 19px;
 }
 .textpopular{
-  font-size: 16px;
+  font-size: 17px;
+  padding-bottom: 2rem;
 }
 .bluestars{
   margin: 3rem 0 0 0;
 }
 .accomodationpopular{
-  display: flex;
-  border-radius: 1rem 1rem 1rem 1rem;
-  width: 75%;
-  height: 160px;
-  font-size: 18px;
-  background-color: white;
-  padding:4px 0 5px 5px;
-  margin: 0 10px 20px 15px;
+  width: 82%;
+  margin: 0 25px 25px 25px;
+  padding: 5px 0 5px 5px;
   cursor: pointer;
   transition-duration: 0.2s;   
 }
 .popularimage{
   width: 40%;
-  height: 100%;
-  border-radius: 1rem 0rem 0rem 1rem;
+  height: auto;
 }
 #activites{
   grid-row-gap: 2rem;
@@ -610,7 +651,7 @@ footer{
   padding: 0;
  } 
 }
-@media all and (max-width: 475px){
+@media all and (max-width: 485px){
 .signup{
   font-weight: bolder;
   position: absolute;
@@ -747,6 +788,7 @@ footer{
 }
 .popularimage{
   width: 48%;
+  height: auto;
 }
 #activites {
   grid-row-gap: 2rem;
