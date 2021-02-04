@@ -515,33 +515,32 @@ footer{
   margin: 0 0 0 -5rem;
  }
 }
-@media all and (min-width: 788px) and (max-width: 1080px){
+@media all and (min-width: 786px) and (max-width: 1080px){
 .element2{
-  width: 75%
+  width: 80%;
+  margin-left:1.5rem;
 } 
 .hostingpopulartitle{
- font-size: 18px;
+  font-size: 19px;
 }
 .fa-chart-line{
-}
-.titlepopular{
-  font-size: 16px;
-}
-.textpopular{
-  font-size: 15px;
-  padding-bottom: 1rem;
-}
-.bluestars{
-  margin-top: 3rem;
+  padding: 0 0 0 2.5rem;
 }
 .accomodationpopular{
-  margin: 3rem 0.5rem 2rem 0.5rem;
+  margin: -3rem 0.5rem 1rem 0.5rem;
   height: 170px;
   width: 100%;
-} 
+}
 .popularimage {
   height: auto;
   }
+.titlepopular {
+  font-size: 16px;
+}
+.textpopular{
+  font-size: 15px; 
+  padding-bottom: 0.3rem;
+}   
 #city{
   width: 100%;
   }
@@ -605,13 +604,12 @@ footer{
 }
 .hostingpopulartitle{
   display: flex;
-  font-size: 20px;
+  font-size: 19.5px;
   margin: 1rem 0.5rem 1rem 1rem;
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem 0 1rem 0.5rem;
 }
-.fa-chart-line{
-  padding-left: 5rem;
-  margin-left: 6rem;
+.hostingpopulartitle .fa-chart-line{
+  margin-left: 7em;
 }
 .titlepopular{
   padding: 0 0.3rem 0.3rem;
@@ -632,7 +630,7 @@ footer{
   transition-duration: 0.2s;   
 }
 .popularimage{
-  width: 40%;
+  width: 43%;
   height: auto;
 }
 #activites{
@@ -656,7 +654,7 @@ footer{
   font-weight: bolder;
   position: absolute;
   top: 10px;
-  right: 50px;
+  right: 70px;
   font-size: 15px;
 }
 .hosting{
@@ -669,13 +667,6 @@ footer{
   border-bottom-style: solid;
   font-size: 15px;
 }
-#navigation{
-  display: block;
-}
-#liens{
-  word-spacing: 0;
-  flex-wrap: wrap-reverse;
-}
 .titre, .text{
   width: 95%;
 }
@@ -685,7 +676,6 @@ footer{
 .titre{
   margin-bottom: 1rem;
   font-size: x-large;
-  font-weight: bold;
 }
 .place {
   font-weight: 800;
@@ -702,13 +692,13 @@ footer{
   padding: 0;
 } 
 .titrefiltre{
-  margin: 0;
+  margin: 2rem 0 0 0;
 }
 .conteneurfiltre{
   display: block;
 }
 .filters{
-  margin-right: 1rem;
+  margin-right:0;
 }
 .fa-info-circle
 {
@@ -749,7 +739,6 @@ footer{
 }
 .learnmore
 {
-  font-weight: bold;
   margin: 0;
   cursor: pointer;
 } 
@@ -763,21 +752,19 @@ footer{
   width: 100%;
   padding: 0;
   margin: 0;
-  align-content: center;
 }
 .hostingpopulartitle{
   font-size: 18px;
   margin: 1rem 1rem 1rem 1rem;
 }
-.fa-chart-line{
-  padding-left: 2.5rem;
-  margin-left: 4rem;
+.hostingpopulartitle .fa-chart-line {
+  margin-left: 5em;
 }
 .bluestars {
   margin: 3rem 0 0 0;
 }
 .titlepopular{
-  font-size: 17px;
+  font-size: medium;
 }
 .textpopular{
   font-size: 15px;
@@ -787,7 +774,7 @@ footer{
   margin: 0 15px 20px 15px;
 }
 .popularimage{
-  width: 48%;
+  width: 49%;
   height: auto;
 }
 #activites {
@@ -801,14 +788,10 @@ footer{
   object-fit: cover;
 }
 footer{
-  flex-direction: column;
   align-items: start;
   text-align: left;
   margin: 2rem 0 0 0;
   width: 100%;
 }
-.about{
-  margin: 0;
-  padding: 0;
+
 }
-  }
