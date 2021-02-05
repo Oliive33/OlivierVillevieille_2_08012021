@@ -377,8 +377,8 @@ span
 .activitycard6{
   grid-column: 4/5;
   grid-row: 4/7;
-  }  
-}
+  }
+}    
   /*pied de page*/
 
 footer
@@ -447,7 +447,7 @@ ul
 }
 .bluestars {
   color: #0065FC;
-  margin: 2rem 0 2rem 0;
+  margin: 2.8rem 0 0 0;
 }
 .popularimage{
   height: auto;
@@ -483,13 +483,13 @@ ul
   width: 91%;
   height: 185px;
 }
-.fa-chart-line {
-  padding: 0 1rem 0 1rem;
-}
 .titlepopular{
   padding:0;
   font-size: 18px;
 }
+.fa-chart-line {
+  margin-left: 3rem;
+}  
 .textpopular{
   font-size: 16px;
   padding-top: 0;
@@ -499,7 +499,7 @@ ul
 }
 .bluestars {
   color: #0065FC;
-  margin: 2.5rem 0 0 0;
+  margin: 4rem 0 0 0;
 }
 #activites {
   grid-row-gap: 2rem;
@@ -521,16 +521,17 @@ footer{
   margin-left:1.5rem;
 } 
 .hostingpopulartitle{
-  font-size: 19px;
+  font-size: 18px;
+  padding: 25px 5px 0 0;
 }
 .fa-chart-line{
-  padding: 0 0 0 2.5rem;
+  margin:0;
 }
 .accomodationpopular{
   margin: -3rem 0.5rem 1rem 0.5rem;
   height: 170px;
   width: 100%;
-}
+}   
 .popularimage {
   height: auto;
   }
@@ -540,7 +541,10 @@ footer{
 .textpopular{
   font-size: 15px; 
   padding-bottom: 0.3rem;
-}   
+}
+.bluestars {
+    margin: 2.8rem 0 0 0 
+}  
 #city{
   width: 100%;
   }
@@ -654,8 +658,8 @@ footer{
   font-weight: bolder;
   position: absolute;
   top: 10px;
-  right: 70px;
   font-size: 15px;
+  transform: translate(-50%);
 }
 .hosting{
   border: 2px #0065FC;
@@ -758,7 +762,7 @@ footer{
   margin: 1rem 1rem 1rem 1rem;
 }
 .hostingpopulartitle .fa-chart-line {
-  margin-left: 5em;
+  margin-left: 2em;
 }
 .bluestars {
   margin: 3rem 0 0 0;
