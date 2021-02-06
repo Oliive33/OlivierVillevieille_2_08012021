@@ -515,20 +515,36 @@ footer{
   margin: 0 0 0 -5rem;
  }
 }
-@media all and (min-width: 786px) and (max-width: 1080px){
+@media all and (min-width: 786px) and (max-width: 960px){
+.filters{
+  margin-right: 2rem;
+}
+#city{
+  width: 100%;
+  grid-gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+.imghosting{
+  width: 98%;
+  margin: 0 1rem 1rem 0rem;
+}  
+.massilia{
+  font-size: 19px;
+} 
 .element2{
   width: 80%;
   margin-left:1.5rem;
 } 
 .hostingpopulartitle{
   font-size: 18px;
-  padding: 25px 5px 0 0;
+  padding: 30px 5px 0 0;
 }
 .fa-chart-line{
   margin:0;
 }
 .accomodationpopular{
-  margin: -3rem 0.5rem 1rem 0.5rem;
+  margin: -3rem 0.5rem 1rem 0;
   height: 170px;
   width: 100%;
 }   
@@ -544,13 +560,7 @@ footer{
 }
 .bluestars {
     margin: 2.8rem 0 0 0 
-}  
-#city{
-  width: 100%;
-  }
-.massilia{
-  font-size: 19px;
-}    
+}     
 }
 @media all and (max-width: 785px){
 #navigation{
@@ -562,7 +572,7 @@ footer{
   padding-left: 0;
 }
 .titre {
-  font-size: 25px;
+  font-size: 22px;
 }
 .conteneurfiltre{
   flex-wrap: wrap;
@@ -608,12 +618,12 @@ footer{
 }
 .hostingpopulartitle{
   display: flex;
-  font-size: 19.5px;
-  margin: 1rem 0.5rem 1rem 1rem;
+  font-size: 19px;
+  margin: 1rem 0.5rem 1rem 0.5rem;
   padding: 1rem 0 1rem 0.5rem;
 }
 .hostingpopulartitle .fa-chart-line{
-  margin-left: 7em;
+  margin-left: 5em;
 }
 .titlepopular{
   padding: 0 0.3rem 0.3rem;
@@ -762,7 +772,7 @@ footer{
   margin: 1rem 1rem 1rem 1rem;
 }
 .hostingpopulartitle .fa-chart-line {
-  margin-left: 2em;
+  margin-left: 2.5em;
 }
 .bluestars {
   margin: 3rem 0 0 0;
