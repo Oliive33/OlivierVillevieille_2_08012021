@@ -10,7 +10,7 @@ body
 {
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 1440px;
 }
 header, main
 {
@@ -280,7 +280,7 @@ span
 .bluestars
 {
   color: #0065FC;
-  margin: 4.5rem 0 0 0;
+  margin: 4rem 0 0 0;
 }
 .popularimage
 {
@@ -386,8 +386,7 @@ footer
   display: flex;
   justify-content: space-around;
   background: #F2F2F2;
-  width: 95%;
-  padding: 1.5rem 4rem 0 0;
+  width: 100%;
   margin-top: 5rem;
   font-size: 13.5px; 
 }
