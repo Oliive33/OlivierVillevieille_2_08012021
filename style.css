@@ -386,7 +386,6 @@ footer
   display: flex;
   justify-content: space-around;
   background: #F2F2F2;
-  width: 100%;
   margin-top: 5rem;
   font-size: 13.5px; 
 }
